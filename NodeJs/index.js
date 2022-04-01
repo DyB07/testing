@@ -38,6 +38,6 @@ function OnRequest(req, res) {
 
 const cek = http.createServer(OnRequest);
 
-cek.listen(8000, 'localhost', () => {
-    console.log("Server sudah berjalan, silahkan buka http://localhost:%d", 8000);
+cek.listen(8000, '127.0.0.1', () => {
+    console.log("Server sudah berjalan, silahkan buka http://127.0.0.1:%d", 8000);
 })
