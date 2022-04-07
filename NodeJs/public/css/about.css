@@ -1,0 +1,138 @@
+html {
+	overflow-x: hidden;
+}
+
+body {
+	font-family: Helvetica;
+}
+
+/*Awal CSS Navbar*/
+.navbar .container .navbar-nav a {
+	margin-right: 30px;
+	font-family: Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	color: #000000;
+}
+
+/*AKhir CSS Navbar*/
+
+/*Awal CSS Jumbotron*/
+.jumbotron {
+	padding-top: 20%;
+	margin-top: -200px;
+	height: 680px;
+	background-color: #F1F3FF;
+}
+
+.jumbotron .container .row .deskripsi h1 {
+	margin-top: 100px !important;
+	font-family: Helvetica, sans-serif;
+	font-size: 36px;
+	line-height: 54px;
+	color: #000000;
+}
+
+.jumbotron .container .row .deskripsi p {
+	font-family: Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.jumbotron .container .row .gambar {
+	position: relative;
+}
+
+.jumbotron .container .row .gambar .shape {
+	background-color: #0D28A6;
+	bottom: 0px;
+	width: 704px;
+	height: 243px;
+	position: absolute;
+	border-top-left-radius: 68px;
+}
+
+.jumbotron .container .row .gambar img {
+	width: 704px;
+	height: 407px;
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+}
+
+/*Awal Footer*/
+.footer .container {
+	max-width: 1170px;
+	margin: auto;
+}
+
+.footer .container .row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.footer .container .row .footer-col ul {
+	list-style: none;
+}
+
+.footer {
+	padding: 70px 0;
+}
+
+.footer-col {
+	width: 25%;
+	padding: 0 15px;
+}
+
+.footer-col h4 {
+	font-size: 18px;
+	color: black;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+
+.footer-col h4::before {
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+
+.footer-col ul li:not(:last-child) {
+	margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+	font-size: 16px;
+	text-transform: capitalize;
+	color: black;
+	text-decoration: none;
+	font-weight: 300;
+	color: black;
+	display: block;
+}
+
+.footer-col ul li a:hover {
+	color: black;
+	padding-left: 8px;
+}
+
+.footer-col .social-links a {
+	height: 40px;
+	width: 40px;
+	margin: 0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+}
+
+.footer-col .social-links a img {
+	width: 30px;
+	margin-top: -50px;
+}
+
+/*Akhir Footer*/

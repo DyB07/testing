@@ -4,11 +4,202 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.css"> -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/about.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+	<!-- <script type="text/javascript" src="js/jquery.js"></script> -->
     <title>About</title>
 </head>
 <body>
     
-    <h1>ini adalah about.html</h1>
+    <!-- Awal Navbar -->
+	<nav class="navbar navbar-expand-lg navbar-light">
+		<div class="container">
+		  		<a class="navbar-brand" href="#">LOGO</a>
+		  		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  	</button>
+		  	<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+		    	<div class="navbar-nav ml-auto">
+				      <a class="nav-link" href="#">Our Services</a>
+				      <a class="nav-link" href="#">Why Us</a>
+				      <a class="nav-link" href="#">Testimonial</a>
+				      <a class="nav-link" href="#">FAQ</a>
+				      <a class="nav-link btn btn-success text-light" href="#">Register</a>
+			    </div>
+		  </div>
+		</div>
+	</nav>
+	<!-- Akhir Navbar -->
+
+    <!-- Awal Jumbotron -->
+	<div class="jumbotron">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-lg-6 deskripsi">
+					<h1 class="display-4">Sewa & Rental Mobil Terbaik di kawasan (Lokasimu)</h1>
+					<p class="lead">Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas terbaik dengan harga terjangkau. Selalu siap melayani kebutuhanmu untuk sewa mobil selama 24 jam.</p>
+				</div>
+
+				<div class="col-lg-6 gambar">
+					<div class="shape"></div>
+					<img src="asset/mobil.png">
+				</div>	
+			</div>
+		</div>
+	</div>
+	<!-- Akhir Jumbotron -->
     
+
+	<!-- Awal Form Rental -->
+	<div class="sewa-mobil">
+		<div class="container">
+
+			<!-- Button trigger modal -->
+				<!-- Modal -->
+				<div class="modal-dialog modal-dialog-centered modal-xl">
+					<div class="modal-content">
+
+					<div class="modal-body">
+
+						<div class="form-group row">
+							
+							<div class="col-sm">
+								<label for="select">Type Driver</label>
+								<select name="" id="select" class="custom-select">
+								<option value="" hidden>Pilih Type Driver</option>
+								<option value="">Dengan Supir</option>
+								<option value="">Tanpa Supir (Lepas Kunci)</option>
+							</select>
+							</div>
+
+							<div class="col-sm">
+								<label for="select">Tanggal</label>
+								<input type="date" class="form-control">
+							</div>
+							
+
+							<div class="col-sm">
+								<label for="select">Waktu Jemput/Ambil</label>
+								<select name="" id="select" class="custom-select">
+									<option value="" hidden>Pilih Waktu</option>
+									<option value="">08.00 WIB</option>
+									<option value="">09.00 WIB</option>
+									<option value="">10.00 WIB</option>
+									<option value="">11.00 WIB</option>
+									<option value="">12.00 WIB</option>
+								</select>
+							</div>
+
+							<div class="col-sm">
+								<label for="select">Jumlah Penumpang</label>
+								<select name="" id="select" class="custom-select">
+									<option value="" hidden>Jumlah Penumpang</option>
+									<option value="">2 Penumpang</option>
+									<option value="">4 Penumpang</option>
+									<option value="">6 Penumpang</option>
+								</select>
+								
+							</div>
+
+
+						</div>
+
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-success">Cari Mobil</button>
+					</div>
+
+					</div>
+				</div>	
+			
+				
+				<div class="card" id="card">
+						<!-- <img src="https://picsum.photos/200" class="card-img-top">
+					<div class="card-body">
+						<h5 id="type-mobil">Nama/Tipe Mobil</h5>
+						<h5 id="harga">Rp 200.000 / Hari</h5>
+						<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+					
+						<div class="user">
+							<img src="asset/fi_users.png">
+							<label id="orang">4 Orang</label>
+						</div>
+						<div class="setting">
+							<img src="asset/fi_settings.png">
+							<label id="setting">Manual</label>
+							
+						</div>
+						<div class="update">
+							<img src="asset/fi_calendar.png">
+							<label id="tahun">Tahun 2022</label>
+							
+						</div>
+
+						<div class="footer">
+							<button class="btn btn-success btn-block">Pilih Mobil</button>
+						</div>
+
+					</div> -->
+
+					</div>
+
+				</div>	
+
+			</div>
+			
+
+		</div>
+		
+		</div>
+	</div>
+	<!-- Akhir Form Rental -->
+
+
+    <!-- Awal Footer -->
+	<footer class="footer">
+  	 <div class="container">
+  	 	<div class="row">
+  	 		<div class="footer-col">
+  	 			<ul>
+  	 				<li><p>Jalan Suroyo No. 161 Mayangan Kota Probolonggo 672000</p></li>
+  	 				<li><p>binarcarrental@gmail.com</p></li>
+  	 				<li>081-233-334-808</li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<ul>
+  	 				<li><a href="#">Our services</a></li>
+  	 				<li><a href="#">Why Us</a></li>
+  	 				<li><a href="#">Testimonial</a></li>
+  	 				<li><a href="#">FAQ</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>Connect with us</h4>
+  	 			<div class="social-links">
+  	 				<a href="#"><img src="asset/fb.png"></a>
+  	 				<a href="#"><img src="asset/ig.png"></a>
+  	 				<a href="#"><img src="asset/twitter.png"></a>
+  	 				<a href="#"><img src="asset/email.png"></a>
+  	 				<a href="#"><img src="asset/twitch.png"></a>
+  	 			</div>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>Copyright Binar 2022</h4>
+  	 		</div>
+  	 	</div>
+  	 </div>
+  </footer>
+	<!-- Akhir Footer -->
+
+	<script src="./car.js"></script>
+	<script src="./handleinput.js"></script>
+
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+	
 </body>
 </html>

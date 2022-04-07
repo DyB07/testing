@@ -1,0 +1,378 @@
+html {
+	overflow-x: hidden;
+}
+
+body {
+	font-family: Helvetica;
+}
+
+/*Awal CSS Navbar*/
+.navbar .container .navbar-nav a {
+	margin-right: 30px;
+	font-family: Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	color: #000000;
+}
+
+/*AKhir CSS Navbar*/
+
+
+/*Awal CSS Jumbotron*/
+.jumbotron {
+	padding-top: 20%;
+	margin-top: -200px;
+	height: 680px;
+	background-color: #F1F3FF;
+}
+
+.jumbotron .container .row .deskripsi h1 {
+	margin-top: 100px !important;
+	font-family: Helvetica, sans-serif;
+	font-size: 36px;
+	line-height: 54px;
+	color: #000000;
+}
+
+.jumbotron .container .row .deskripsi p {
+	font-family: Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.jumbotron .container .row .deskripsi a {
+	font-family: Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.jumbotron .container .row .gambar {
+	position: relative;
+}
+
+.jumbotron .container .row .gambar .shape {
+	background-color: #0D28A6;
+	bottom: 0px;
+	width: 704px;
+	height: 243px;
+	position: absolute;
+	border-top-left-radius: 68px;
+}
+
+.jumbotron .container .row .gambar img {
+	width: 704px;
+	height: 407px;
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+}
+
+/*Akhir CSS Jumbotron*/
+
+
+/*Awal CSS Our Services*/
+.services .container .row {
+	margin-top: 115px;
+}
+
+.services .container .row .service {
+	margin-left: 610px;
+	position: absolute;
+}
+
+.services .container .row .service ul {
+	margin-left: -40px;
+}
+
+.services .container .row .service ul li {
+	list-style: none;
+	margin-bottom: 15px;
+}
+
+.services .container .row .service ul li span {
+	margin-left: 10px;
+}
+
+.services .container .row .service ul li img {
+	width: 24px;
+	height: 24px;
+	margin-right: 10px;
+}
+
+.services .container .row .perempuan .bulat-hijau {
+	background-color: green;
+	position: absolute;
+	width: 133px;
+	height: 133px;
+	left: 0px;
+	top: 1px;
+	border-radius: 100%;
+	opacity: 50%;
+}
+
+.services .container .row .perempuan .bulat-pink {
+	background-color: crimson;
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	left: 383px;
+	top: 43px;
+	border-radius: 100%;
+}
+
+.services .container .row .perempuan .bulat-kuning {
+	background-color: yellow;
+	position: absolute;
+	width: 48px;
+	height: 48px;
+	left: 60px;
+	top: 336px;
+	border-radius: 100%;
+
+}
+
+.services .container .row .perempuan .bulat-biru {
+	width: 360px;
+	height: 360px;
+	border-radius: 100%;
+	background-color: blue;
+	left: 110px;
+	top: 99px;
+	position: absolute;
+}
+
+.services .container .row .perempuan .wanita {
+	width: 379px;
+	max-height: 431px;
+	overflow: hidden;
+	margin-left: 86px;
+	margin-top: 30px;
+	border-bottom-left-radius: 100%;
+	border-bottom-right-radius: 100%;
+}
+
+.services .container .row .perempuan .wanita img {
+	width: 374px;
+	height: 562px;
+	position: relative;
+}
+
+/*Akhir CSS Our Services	*/
+
+
+/*Awal Why Us*/
+.why-us .container .row {
+	margin-top: 10%;
+	font-family: Helvetica;
+}
+
+.why-us .container .row .col-lg .judul {
+	margin-top: 10%;
+}
+
+.why-us .container .row .col-lg .judul p {
+	margin-top: 20px;
+}
+
+.why-us .container .row .card-deck .card {
+	border-radius: 10px;
+}
+
+.why-us .container .row .card-deck .card img {
+	width: 40px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.why-us .container .row .card-deck {
+	margin-top: 2%;
+}
+
+/*Akhir Why Us*/
+
+
+/*Awal Testimonial*/
+.user-review {
+	text-align: center;
+	margin-top: 10%;
+}
+
+.testimonial {
+	text-align: left;
+	margin-top: 40px;
+	display: flex;
+	flex-direction: row;
+	position: relative;
+}
+
+.testimonial .row .col-lg-3 img {
+	width: 100px;
+	height: 100px;
+	margin-top: 30px;
+	margin-left: -20px;
+	border-radius: 50%;
+}
+
+.testimonial .row .col-lg-9 p {
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+.testimonial .row .col-lg-9 .stars {
+	color: #F9CC00;
+}
+
+.testimonial .konten1 {
+	background-color: #F1F3FF;
+	padding: 40px;
+	border-radius: 10px;
+	margin-right: 20px;
+}
+
+.testimonial .konten2 {
+	background-color: #F1F3FF;
+	padding: 40px;
+	border-radius: 10px;
+	margin-right: 20px;
+}
+
+.testimonial .konten3 {
+	background-color: #F1F3FF;
+	padding: 40px;
+	border-radius: 10px;
+}
+
+.user-review .panah-kanan img {
+	width: 30px;
+	margin-top: 10px;
+	cursor: pointer;
+	margin-left: 40px;
+}
+
+.user-review .panah-kiri img {
+	width: 30px;
+	margin-top: -55px;
+	cursor: pointer;
+	margin-right: 50px;
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+
+}
+
+/*Akhir Testimonial*/
+
+
+/*Awal Sewa Mobil*/
+.lokasi .container {
+	margin-top: 10%;
+	padding: 50px 50px;
+	background-color: #0D28A6;
+	border-radius: 10px;
+	color: white;
+}
+
+.lokasi .container .row .col {
+	margin-top: 5%;
+}
+
+.lokasi .container .row .col p {
+	margin-top: 2%;
+}
+
+.lokasi .container .row .col button {
+	margin-top: 5%;
+}
+
+/*Akhir Sewa Mobil*/
+
+
+/*Awal Frequently Asked Question*/
+.FAQ .container .row .col .accordion {
+	width: 600px;
+	margin-left: 10%;
+	margin-top: 15%;
+}
+
+.FAQ .container .row .konten {
+	margin-top: 10%;
+}
+
+/*Akhir Frequently Asked Question*/
+
+
+/*Awal Footer*/
+.footer .container {
+	max-width: 1170px;
+	margin: auto;
+}
+
+.footer .container .row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.footer .container .row .footer-col ul {
+	list-style: none;
+}
+
+.footer {
+	padding: 70px 0;
+}
+
+.footer-col {
+	width: 25%;
+	padding: 0 15px;
+}
+
+.footer-col h4 {
+	font-size: 18px;
+	color: black;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+
+.footer-col h4::before {
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: -10px;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+
+.footer-col ul li:not(:last-child) {
+	margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+	font-size: 16px;
+	text-transform: capitalize;
+	color: black;
+	text-decoration: none;
+	font-weight: 300;
+	color: black;
+	display: block;
+}
+
+.footer-col ul li a:hover {
+	color: black;
+	padding-left: 8px;
+}
+
+.footer-col .social-links a {
+	height: 40px;
+	width: 40px;
+	margin: 0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+}
+
+.footer-col .social-links a img {
+	width: 30px;
+	margin-top: -50px;
+}
+
+/*Akhir Footer*/
