@@ -1,0 +1,46 @@
+
+
+                <div class="row-body-right">
+
+                    <div class="row-body1">
+                        <p class="bold">Car</p>
+                        <i class="fa fa-angle-right bold"></i>
+                        <p>List Car</p>
+                    </div>
+
+                    <div class="row-body2">
+                        <p class="bold">List Car</p>
+                        <a href="/tambah"><button  type="button" class="bold">+ Add New Car</button></a>
+                    </div>
+
+                    <div class="row-body3">
+                        <button id="All">All</button>
+                        <button id="Small">Small</button>
+                        <button id="Medium">Medium</button>
+                        <button id="Large">Large</button>
+                    </div>
+
+                    <div class="row-body4">
+
+                        <% for(var i=0; i < data.length; i++) { %>
+                            
+                        <div class="car">
+                            <div class="car-align">
+                                <img src="images/<%= data[i].foto %>" alt="mobil">
+                            </div>
+                            <p> <%= data[i].name %> </p>
+                            <p class="bold">RP. <%= data[i].sewa %> </p>
+                            <p class="thin"><i class="fa fa-clock"></i> <%= data[i].updatedAt %></p>
+                            <p></p>
+                            <div class="car-button">
+                                <button class="delete-button"><i class="fa-regular fa-trash-can"></i> Delete</button>
+                                <a href="/update"><button class="edit-button"><i class="fa fa-pen"></i> Edit</button></a>
+                            </div>
+                            <p></p>
+                        </div>
+
+                        <% } %>
+
+                    </div>
+
+                </div>
